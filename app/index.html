@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="inspinia">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Page title set in pageTitle directive -->
+    <title page-title>供应商中心|丰趣海淘</title>
+</head>
+
+<!-- ControllerAs syntax -->
+<!-- Main controller with serveral data used in Inspinia theme on diferent view -->
+<body ng-controller="MainCtrl as main">
+	<!-- <body> -->
+	
+	<div ui-view class="ng-scope"></div>
+
+	<!-- jQuery and Bootstrap -->
+	<script src="js/jquery/jquery-2.1.1.min.js"></script>
+	<script src="js/plugins/jquery-ui/jquery-ui.js"></script>
+
+	<!-- Angular scripts-->
+	<script src="js/angular/angular.min.js"></script>
+	<script src="js/ui-router/angular-ui-router.min.js"></script>
+
+	<!-- tools-->
+	<script src="js/plugins/md5.js"></script>
+	<script src="js/plugins/cookies/angular-cookies.js"></script>
+	<script src="js/plugins/a0-angular-storage/angular-storage.js"></script>
+
+	<!--国际化组件  -->
+	<script src="js/plugins/angular-translate/angular-translate.js"></script>
+	<script src="js/plugins/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+	<script src="js/plugins/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+
+
+	<!-- Anglar App Script -->
+	<script src="js/app.js"></script>
+	<script src="js/interface/gateway.service.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/directives.js"></script>
+
+
+	<!-- api -->	
+	<script src="js/interface/bemyse.api.password_login.js"></script>
+
+
+	<!-- Controllers Script -->
+	<script src="js/controllers/login.js"></script>
+</body>
+</html>
